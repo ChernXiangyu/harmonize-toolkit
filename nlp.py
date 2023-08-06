@@ -6,7 +6,7 @@ import sys
 
 import openai
 
-openai.api_key = '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'
+openai.api_key = ''
 
 def is_person_gpt(string: str):
     response = openai.ChatCompletion.create(
